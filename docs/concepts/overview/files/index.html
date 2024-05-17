@@ -27,13 +27,13 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mudler.github.io/edgevpn/docs/concepts/overview/files/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2017-01-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-05-07T16:59:57+00:00" /><meta property="og:site_name" content="EdgeVPN" />
+<meta property="article:modified_time" content="2024-05-16T23:28:22+00:00" /><meta property="og:site_name" content="EdgeVPN" />
 
 <meta itemprop="name" content="Sending and receiving files">
 <meta itemprop="description" content="Send and receive files between p2p nodes
 "><meta itemprop="datePublished" content="2017-01-05T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2024-05-07T16:59:57+00:00" />
-<meta itemprop="wordCount" content="46">
+<meta itemprop="dateModified" content="2024-05-16T23:28:22+00:00" />
+<meta itemprop="wordCount" content="50">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sending and receiving files"/>
 <meta name="twitter:description" content="Send and receive files between p2p nodes
@@ -122,7 +122,7 @@ if (!doNotTrack) {
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/edgevpn/offline-search-index.45649a2433a91f23f557d59a2e37a7b8.json"
+  data-offline-search-index-json-src="/edgevpn/offline-search-index.74aff338a67633f73721538401193994.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="10"
 >
@@ -144,7 +144,7 @@ if (!doNotTrack) {
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/edgevpn/offline-search-index.45649a2433a91f23f557d59a2e37a7b8.json"
+  data-offline-search-index-json-src="/edgevpn/offline-search-index.74aff338a67633f73721538401193994.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="10"
 >
@@ -276,9 +276,9 @@ if (!doNotTrack) {
 <p>EdgeVPN can be used to send and receive files between hosts via p2p with the  <code>file-send</code> and <code>file-receive</code> subcommand.</p>
 <p>Sending and receiving files, as services, don&rsquo;t establish a VPN connection.</p>
 <h3 id="sending">Sending</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ edgevpn file-send <span style="color:#4e9a06">&#39;unique-id&#39;</span> <span style="color:#4e9a06">&#39;/src/path&#39;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ edgevpn file-send --name unique-id --path /src/path
 </code></pre></div><h3 id="receiving">Receiving</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ edgevpn file-receive <span style="color:#4e9a06">&#39;unique-id&#39;</span> <span style="color:#4e9a06">&#39;/dst/path&#39;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ edgevpn file-receive --name unique-id --path /dst/path
 </code></pre></div>
 	
 		<style>
@@ -345,7 +345,7 @@ if (!doNotTrack) {
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  Last modified May 7, 2024: <a href="https://github.com/mudler/edgevpn/commit/57f092a9dfd30bae14406c78e6a7532749e2bda9">chore(deps): update dependency go to v1.22.3 (#366) (57f092a)</a>
+  Last modified May 16, 2024: <a href="https://github.com/mudler/edgevpn/commit/153d841005a7656b61f4f6aa1c3a89d042202a31">fix(deps): update module github.com/multiformats/go-multiaddr to v0.12.4 (#369) (153d841)</a>
 </div>
 
 </div>
